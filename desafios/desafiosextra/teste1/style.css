@@ -1,0 +1,127 @@
+@import "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d1e5f8;
+    padding: 1em 2em 1em 2em;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #f8cce0, #c8c3f8);
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav {
+    background-color: #a39ecc;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+nav > a {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px black;
+    color: white;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline black;
+}
+
+main {
+    padding: 0px;
+    margin: 1em auto;
+    max-width: 50em;
+    
+}
+
+article {
+    background-image: linear-gradient(to bottom, #f8cce0, #c8c3f8);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    text-align: justify;
+    padding: 0px 30px 1em 30px;
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #f8cce0, #c8c3f8);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+
+/* Classes */
+
+
+.nomedosite {
+    text-align: center;
+}
+
+.titulos {
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-family: "Pixelify Sans", Arial, Helvetica, sans-serif;
+    font: bolder;
+}
+
+.imagemROMs {
+    width: 10em;
+    height: 10em;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.ajusteimagem {
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    max-width: 80%;
+    height: auto;
+    width: auto;
+}
+
+.ajustevideo {
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+}
+
+.nomeROMs {
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px 3px black;
+    font-weight: bolder;
+    background-color: #a39ecc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.listasemestilo {
+    list-style-type: none;
+}
+
+.linklimpo {
+    text-decoration: none;
+    color: white;
+}
+
+.textolimpo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #a39ecc;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
